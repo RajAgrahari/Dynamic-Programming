@@ -18,14 +18,10 @@ int DivisibleByM(vector<int>nums, int m){
 		          dp[i][j]=dp[i-1][j];
 		      }
 		   }
-		   for(int i=1;i<=n;i++)
-		   {
 		      for(int j=m;j<=sum;j+=m)
 		      {
-		         if(dp[i][j]==true)
-		         return 1;
-		          
+		         if(dp[n][j]==true)
+		         return 1;  
 		      }
-		   }
 		   return 0;
 		}
