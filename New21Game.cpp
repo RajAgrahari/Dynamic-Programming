@@ -1,4 +1,4 @@
-//https://leetcode.com/problems/new-21-game/
+//https://leetcode.com/problems/new-21-game/ 
 double new21Game(int n, int k, int maxPts) 
     {
         vector<double> dp(n + 1);
